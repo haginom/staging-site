@@ -35,7 +35,7 @@ const IndexPage = (props) => {
       <main className="main p-6 max-w-7xl mx-auto">
         {blogPosts.map((blogPost, index) => (
           <div key={index}>
-            <h3 className="mb-3 font-extrabold">{blogPost.blogTitle}</h3>
+            <h3 className="mb-3 font-bold">{blogPost.blogTitle}</h3>
             <p className="mb-2">{blogPost.blogContent}</p>
           </div>
         ))}
